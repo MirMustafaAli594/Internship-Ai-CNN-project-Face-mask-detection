@@ -15,74 +15,71 @@ This project implements a Face Mask Detection system using Convolutional Neural 
 
  # Technologies & Tools Used:
 -Python
+
 -TensorFlow / Keras
+
 -Convolutional Neural Networks (CNN)
+
 -NumPy
 
-Matplotlib
+-Matplotlib
 
-OpenCV
+-OpenCV
 
-Google Colab
+-Google Colab
 
-🏗️ Architecture Diagram
+# Architecture Diagram:
 
 Explanation of Architecture
 
-Input Layer – Facial images resized to a fixed shape
+-Input Layer – Facial images resized to a fixed shape
 
-Preprocessing – Normalization and array conversion
+-Preprocessing – Normalization and array conversion
 
-Convolutional Layers – Extract spatial facial features
+-Convolutional Layers – Extract spatial facial features
 
-MaxPooling Layers – Reduce spatial dimensions
+-MaxPooling Layers – Reduce spatial dimensions
 
-Flatten Layer – Convert feature maps into vectors
+-Flatten Layer – Convert feature maps into vectors
 
-Dense Layers – Classification layers
+-Dense Layers – Classification layers
 
-Output Layer – Softmax activation for Mask / No Mask prediction
+-Output Layer – Softmax activation for Mask / No Mask prediction
 
-📂 Dataset
+# Dataset:
 
 Dataset consists of labeled facial images:
 
-With Mask
+-With Mask
 
-Without Mask
+-Without Mask
 
 Images are preprocessed for consistency and optimal model learning.
 
-⚙️ Model Details
+ # Model Details:
 
-Multiple Convolution + MaxPooling layers
+-Multiple Convolution + MaxPooling layers
 
-ReLU activation for hidden layers
+-ReLU activation for hidden layers
 
-Flatten layer for vector conversion
+-Flatten layer for vector conversion
 
-Dense layers for classification
+-Dense layers for classification
 
-Softmax activation for final prediction
+-Softmax activation for final prediction
 
-Model compiled with standard Keras optimizer and loss functions
+-Model compiled with standard Keras optimizer and loss functions
 
-📈 Results
+# Results
 
-The model achieved good training and validation accuracy
+-The model achieved good training and validation accuracy
 
-Loss decreased steadily over epochs, indicating proper learning
+-The CNN correctly classifies masked and unmasked faces
 
-The CNN correctly classifies masked and unmasked faces
+-Performance on  test images confirms that the model generalizes well for binary image classification.
 
-Demonstrates successful learning and convergence
+Overall, the results demonstrate that the CNN architecture is effective for face mask detection tasks.
 
-🧪 Outcomes
 
-Built an end-to-end CNN face mask detection model
 
-Gained experience in image preprocessing and CNN design
 
-Strengthened deep learning workflow understanding
-
-Applied AI to a practical computer vision task
