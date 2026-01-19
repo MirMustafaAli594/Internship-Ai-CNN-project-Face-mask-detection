@@ -6,8 +6,11 @@ This project implements a Face Mask Detection system using Convolutional Neural 
 
  # Objectives:
 -Develop a CNN-based model for face mask detection
+
 -Perform image classification using deep learning
+
 -Apply convolution, pooling, and dense layers effectively
+
 -Evaluate model performance using accuracy and loss metrics
 
  # Technologies & Tools Used:
