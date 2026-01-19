@@ -30,6 +30,10 @@ This project implements a Face Mask Detection system using Convolutional Neural 
 
 # Architecture Diagram:
 
+<img width="1062" height="298" alt="Image" src="https://github.com/user-attachments/assets/d48d1888-0c80-4ac2-9c3f-45bcf377e272" />
+
+
+
 Explanation of Architecture
 
 -Input Layer – Facial images resized to a fixed shape
