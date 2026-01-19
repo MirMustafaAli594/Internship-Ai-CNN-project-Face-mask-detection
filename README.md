@@ -32,8 +32,6 @@ This project implements a Face Mask Detection system using Convolutional Neural 
 
 <img width="1062" height="298" alt="Image" src="https://github.com/user-attachments/assets/d48d1888-0c80-4ac2-9c3f-45bcf377e272" />
 
-
-
 Explanation of Architecture
 
 -Input Layer – Facial images resized to a fixed shape
@@ -73,8 +71,17 @@ Images are preprocessed for consistency and optimal model learning.
 -Softmax activation for final prediction
 
 -Model compiled with standard Keras optimizer and loss functions
+# Output:
+Mask detected
 
-# Results
+<img width="1123" height="677" alt="Image" src="https://github.com/user-attachments/assets/0552b3dd-2fe5-4e27-87e0-9c2090544326" />
+
+No mask found
+
+<img width="831" height="648" alt="Image" src="https://github.com/user-attachments/assets/a0179bab-0943-42ea-99fe-85c86ba94713" />
+
+
+# Results:
 
 -The model achieved good training and validation accuracy
 
